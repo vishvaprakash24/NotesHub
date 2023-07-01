@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg);  
+    background-image: url("./glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg");  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
