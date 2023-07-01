@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;    
+    background-image: url(./glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     width: 70%;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
     margin: auto;
     min-height: 100vh;
     padding: 30px;
