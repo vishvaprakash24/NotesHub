@@ -47,6 +47,8 @@ function removeTasks(){
         description: description.value
     });
     localStorage.setItem("tasks", JSON.stringify(tasks));
+    title.value="";
+    description.value = "";
     // console.log(tasks);
     showAllTasks();
  });
